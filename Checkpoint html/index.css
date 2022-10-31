@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+  
+}
+
+.container{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    row-gap: 50px;
+ 
+}
+
+
+.box{
+    padding: 14px;
+   
+}
+.box:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+h1 {
+    position: absolute;
+    bottom: -50%;
+    left: 16px;
+    color:white;
+    font-weight:bolder;
+    
+    font-size: 50px;
+  }
+
+.about{
+    
+   background-color: black;
+    color:white;
+    text-align: center;
+
+}
+
+.about-title{
+    font-size:30px;
+    letter-spacing: 3px;  
+    padding: 6% 0;
+                
+}
+
+.about-me{
+    line-height: 1.5; 
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 20%;
+    padding-right: 23%;
+    padding-bottom: 5%;
+}
+
+
+
+.grid-container{
+   
+  display: flex;
+  
+  flex-wrap: wrap;
+  max-width: 70%;
+  padding-left:15%;
+  margin-top: 5%;
+   
+      }
+    
+.grid-container img {
+    width:200px;
+    height:200px;
+    border:2px solid #f8f7f736;
+    
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor:pointer;
+    margin: 10px;
+    filter:grayscale(1);
+    
+  }
+
+.work{
+   background-color: black; 
+   color:white;
+    text-align: center;
+}
+
+.work-title{
+    font-size:30px;
+    letter-spacing: 3px;  
+    padding: 6% 0 0 0;
+                
+}
+
+
+.resume-title{
+    font-size:30px;
+    letter-spacing: 3px;  
+    padding: 6% 0 0 0;
+                
+}
+
+.resume{
+    background-color: black;
+    color:white;
+    margin:auto;
+    text-align: center;
+    font-weight: li;
+}
+ 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    padding-top: 60px;
+    margin: auto;
+    
+  }
+  
+  td, th {
+   
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+    color:black
+  }
+
+  tr:nth-child(odd) {
+    background-color: black;
+    color:white;
+  }
+
+
+
+  .contact{
+    background-color: black;
+    padding-top: 60px;
+  }
+
+
+
+  input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(90, 89, 89);
+  }
+  
+  .contact-form {
+  
+    background-color: white;
+    padding: 20px;
+    color:black;
+    margin:0 10%;
+  }
+
+.contact-font{
+    color:white;
+}
+
+.contact-title{
+    font-size:30px;
+    letter-spacing: 3px;  
+    padding: 6% 0 0 0;
+    color:white;
+    text-align: center;
+}
+
+.contact-subtitle{
+    color:white;
+    text-align: center;
+}   
+    
+.footer{
+    text-align: center;
+    color:white;
+    background-color:black;
+    
+    letter-spacing: 3px;  
+    padding: 6% 0 6% 0;
+    
+
+}
+
+#text-deco{
+    text-decoration: underline;
+}
